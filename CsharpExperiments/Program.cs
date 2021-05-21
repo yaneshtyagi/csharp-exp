@@ -8,7 +8,8 @@ namespace CsharpExperiments
         static async Task Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            await new SyncExp().DoSomethingAsyncGood();
+            //await new SyncExp().DoSomethingAsyncGood();
+            await new SyncExp().DoSomethingAsyncVoidGood();
             Console.Write("...done");
         }
     }
