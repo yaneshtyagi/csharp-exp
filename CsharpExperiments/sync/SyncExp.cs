@@ -15,14 +15,17 @@ public class SyncExp{
         var result =  LongOperationSimulator.KeepRunningUntilAsync(5);
         var result_2 = LongOperationSimulator.KeepRunningUntilAsync(5);
 
-        var result1 = await result;
-        var result2 = await result_2;
+        // var result1 = await result;
+        // var result2 = await result_2;
+
+        // I can use only one await statement for all tasks using WhenALl method. This makes the code cleaner to read.
+        await Task.WhenAll(result, result_2);
         
-        Console.WriteLine($"Total time returned: {result1 + result2} seconds.");
+        Console.WriteLine($"Total time returned: {result.Result + result_2.Result} seconds.");
         Console.WriteLine($"Time elapsed: {System.DateTime.Now.Subtract(beginTime).Seconds} seconds ");
         
-        return result1 + result2;
-        //return 0;
+        //return result1 + result2;
+        return 0;
 
     }
 }
