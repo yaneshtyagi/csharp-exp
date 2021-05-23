@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpExperiments", "CsharpExperiments\CsharpExperiments.csproj", "{A409181B-7051-426A-849C-3C252F440C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatching", "PatternMatching\PatternMatching.csproj", "{F6D7EEE3-0B48-49D2-9981-36F64CA9E511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{7E48A13F-2FC1-482A-A848-60A01DCF6EB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A409181B-7051-426A-849C-3C252F440C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A409181B-7051-426A-849C-3C252F440C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A409181B-7051-426A-849C-3C252F440C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A409181B-7051-426A-849C-3C252F440C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D7EEE3-0B48-49D2-9981-36F64CA9E511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D7EEE3-0B48-49D2-9981-36F64CA9E511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D7EEE3-0B48-49D2-9981-36F64CA9E511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D7EEE3-0B48-49D2-9981-36F64CA9E511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E48A13F-2FC1-482A-A848-60A01DCF6EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E48A13F-2FC1-482A-A848-60A01DCF6EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E48A13F-2FC1-482A-A848-60A01DCF6EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E48A13F-2FC1-482A-A848-60A01DCF6EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
