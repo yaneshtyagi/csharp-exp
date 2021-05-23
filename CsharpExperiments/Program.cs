@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using CsharpExperiments.RecordExp;
 
 namespace CsharpExperiments
 {
@@ -9,7 +10,8 @@ namespace CsharpExperiments
         {
             Console.WriteLine("Hello World!");
             //await new SyncExp().DoSomethingAsyncGood();
-            await new SyncExp().DoSomethingAsyncVoidGood();
+            // await new SyncExp().DoSomethingAsyncVoidGood();
+            new RecordExpTester().Test();
             Console.Write("...done");
         }
     }
